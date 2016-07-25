@@ -1,0 +1,34 @@
+{
+  "name": "emarsys",
+  "version": "0.0.0",
+  "description": "Emarsys API Client",
+  "license": "MIT",
+  "keywords": [
+    "emarsys",
+    "email",
+    "api"
+  ],
+  "main": "lib/emarsys.js",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "dependencies": {
+    "debug": "~2.2.0",
+    "extend": "~3.0.0",
+    "request": "~2.73.0",
+    "wsse-token": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --ui tdd"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-emarsys",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-emarsys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-emarsys/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
