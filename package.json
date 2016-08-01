@@ -33,6 +33,6 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --require dotenv/config --ui tdd"
+    "test": "mocha --require 'dotenv/config' --ui tdd"
   }
 }
