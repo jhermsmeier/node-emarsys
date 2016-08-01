@@ -90,7 +90,6 @@ suite( 'Emarsys', function() {
       .reply( 200, payload )
 
     client.getDeliverySettings( function( error, settings ) {
-      console.log( settings )
       assert.deepEqual( settings, payload.data )
       done( error )
     })
