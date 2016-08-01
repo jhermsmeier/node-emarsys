@@ -2,6 +2,7 @@
   "name": "emarsys",
   "version": "0.0.0",
   "description": "Emarsys API Client",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
   "keywords": [
     "emarsys",
@@ -9,16 +10,16 @@
     "api"
   ],
   "main": "lib/emarsys.js",
-  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
   "dependencies": {
     "debug": "~2.2.0",
     "extend": "~3.0.0",
     "request": "~2.74.0",
     "wsse-token": "~1.0.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "mocha --ui tdd"
+  "devDependencies": {
+    "dotenv": "~2.0.0",
+    "mocha": "~3.0.0",
+    "nock": "~8.0.0"
   },
   "homepage": "https://github.com/jhermsmeier/node-emarsys",
   "repository": {
@@ -30,5 +31,8 @@
   },
   "directories": {
     "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd --require dotenv/config"
   }
 }
